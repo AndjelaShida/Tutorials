@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        .background {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!--comment-->
+<!-- <h1>Hello Word</h1> -->
+<h2>Hello Word</h2>
+<h3>Hello Word</h3>
+<h4>Hello Word</h4>
+<h5>Hello Word</h5>
+<h6>Hello Word</h6>
+<hr>
+<div>
+<p tiitle="this is tooltrip">Lorem Ipsum is simply <strong>dummy</strong> text of the printing and <small>typesetting</small> industry. Lorem Ipsum has been the industry's standard dummy text ever since 
+    the 1500s, when an unknown <italic>printer</italic> took a galley of type and scrambled it to make a type specimen book. It has survived not only five 
+    centuries, but also the leap into electronic <mark style="color: red;">typesetting</mark>, remaining essentially unchanged. It was popularised in the 1960s with the release 
+    of Letraset sheets containing Lorem Ipsum passages, and more recently <sup>with</sup> desktop publishing software like Aldus PageMaker including versions
+     of Lorem Ipsum.</p>
+
+     <p class="background">Lorem Ipsum is simply <strong>dummy</strong> text of the printing and <small>typesetting</small> industry. Lorem Ipsum has been the industry's standard dummy text ever since 
+        the 1500s, when an unknown <italic>printer</italic> took a galley of type and scrambled it to make a type specimen book. It has survived not only five 
+        centuries, but also the leap into electronic <mark style="color: red;">typesetting</mark>, remaining essentially unchanged. It was popularised in the 1960s with the release 
+        of Letraset sheets containing Lorem Ipsum passages, and more recently <sup>with</sup> desktop publishing software like Aldus PageMaker including versions
+         of Lorem Ipsum</p>
+    </div>
+
+    <a href="#bookmark"></a>
+
+    <!-- Image -->
+    <img src="image_3.jpg" alt="alternative decsription" width="400"> 
+
+    <br>
+
+  
+    
+    
+<!-- List -->
+    <ol type="1" start="100">
+        <li>List items</li>
+        <ul>
+            <li>Sub Bullet</li>
+            <li>Sub Bullet</li>
+            <li>Sub Bullet</li>
+        </ul>
+        <li>List items1</li>
+        <li>List items2</li>
+        <li>List items3</li>
+        <li>List items4</li>
+        
+    </ol>
+<!-- Table -->
+    <table>
+        <caption>This is caption</caption>
+        <thead>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jil</td>
+                <td>Smith</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Jackons</td>
+                <td>26</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jil Smith</td>
+                <td>444-444-444</td>
+                <td>555-555-555</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <table>
+        <tr>
+            <th>Name:</th>
+            <td>Jil Smith</td>    
+        </tr>
+
+        <tr>
+            <th rowspan="2">Telephone</th>
+            <td>555-555-555</td>
+        </tr>
+        <tr>
+            <td>444-444-444</td>
+        </tr>
+    </table>
+
+    <hr>
+    <br>
+<!-- FORM -->
+    <form action="server.php">
+        <fieldset>
+            <legend>Personal information:</legend>
+            First name:<br>
+            <input type="text" name="firstname" value="" placeholder="Firs name here"> <br>
+            Last name: <br>
+            <input type="text" name="lastname" value placeholder="Last name here"> <br>
+            <input type="radio" name="options"> Option 1
+            <input type="radio" name="options"> Option 2
+            <input type="checkbox" name="checkbox" checked> checkbox1
+            <input type="checkbox" name="checkbox"> checkbox2
+            <input type="checkbox" name="checkbox"> checkbox3
+            <label for="carSelect">Select:</label>
+            <select name="care" id="carSelect" multiple></select>
+            <select name="cars">
+                <option value="BMW">BMW</option>
+                <option value="Audi">Audi</option>
+            </select>
+
+            <br>
+            <br>
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+    <!-- button -->
+<button>Click me</button>
+
+<!-- bookmark -->
+<p id="bookmark">this is a paragraph</p>
+
+
+</body>
+</html>
